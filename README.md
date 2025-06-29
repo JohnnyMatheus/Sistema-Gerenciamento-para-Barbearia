@@ -399,8 +399,313 @@ comment on column historico_servico.funcionariocodfun is 'Código do funcionári
 
 
 ```
+## 🎲Script - Inserir dados na Tabela
+```sql
+-- Inserts para Clientes
+insert into cliente (nomcli, telcli, emailcli, bairrocli, ruaendcli, sexocli, cidadecli, dtnascli) values
+  ('ROBERSON JUNIOR FERNANDES ALVES', '(49) 98888-0001', 'roberson.alves@email.com', 'Centro', 'Rua das Flores', 'Masculino', 'Chapecó', '1990-05-12'),
+  ('FRANCIELE CARLA PETRY', '(49) 98888-0002', 'franciele.petry@email.com', 'Bela Vista', 'Rua das Palmeiras', 'Feminino', 'Chapecó', '1992-08-23'),
+  ('RAFAEL NOBREGA AZEVEDO', '(49) 98888-0003', 'rafael.azevedo@email.com', 'Centro', 'Rua das Acácias', 'Masculino', 'Chapecó', '1988-11-15'),
+  ('IAGO NOBREGA AZEVEDO', '(49) 98888-0004', 'iago.azevedo@email.com', 'Jardins', 'Av. Brasil', 'Masculino', 'Chapecó', '2000-03-22'),
+  ('Lua Nobrega Azevedo', '(49) 98888-0005', 'lua.azevedo@email.com', 'Jardins', 'Av. Brasil', 'Feminino', 'Chapecó', '2005-07-10'),
+  ('Raissa AZEVEDO', '(49) 98888-0006', 'raissa.azevedo@email.com', 'Jardins', 'Av. Brasil', 'Feminino', 'Chapecó', '2007-09-14'),
+  ('Otilia Barbosa', '(49) 98888-0007', 'otilia.barbosa@email.com', 'Universitário', 'Rua Rio Branco', 'Feminino', 'Chapecó', '1975-02-17'),
+  ('Fábio Mingori', '(49) 98888-0008', 'fabio.mingori@email.com', 'Centro', 'Rua Anita Garibaldi', 'Masculino', 'Chapecó', '1985-06-09'),
+  ('NATANI GABRIELA GAYARDO', '(49) 98888-0009', 'natani.gayardo@email.com', 'Passo dos Fortes', 'Rua Marechal Floriano', 'Feminino', 'Chapecó', '1996-12-01'),
+  ('Matias Trevisol', '(49) 98888-0010', 'matias.trevisol@email.com', 'Centro', 'Rua São Pedro', 'Masculino', 'Chapecó', '1999-04-19');
 
+--------------------------------------------------------------------------------------------------------------------------------------------------
 
+--Inserts para Funcionários
+insert into funcionario (nomefun, telfun, emailfun, cargofun, salariofun) values
+('Johnny Matheus Nogueira de Medeiro', '(49) 99999-0001', 'johnnymedeiro@empresa.com', 'Barbeiro', 3000.00),
+('Nathaniel Nicolas Rissi Soares', '(49) 99999-0002', 'nathanielsoares@empresa.com', 'Barbeiro', 3200.00),
+('Nelson Ramos Rodrigues Junior', '(49) 99999-0003', 'nelsonjunior@empresa.com', 'Barbeiro', 3100.00),
+('CAUANA ROSIN GHIZZI', '(49) 99999-0004', 'cauanaghizzi@empresa.com', 'Recepcionista', 2500.00),
+('Leandro Otávio Córdova Vieira', '(49) 99999-0005', 'leandrovieira@empresa.com', 'Gerente', 4000.00);
+
+--Insert para Fornecedor
+insert into fornecedor (nomeforn, telforn, emailforn, enderecoforn) values
+    ('UNOESC', '(49) 9999-9999', 'unoesc@example.com', 'Rua Universitária, 123');
+   
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+--Inserts para Serviços
+insert into servico (nomeserv, descserv, precoserv) values
+    ('Corte de Cabelo', 'Corte de cabelo masculino', 50.00),
+    ('Barba', 'Barba completa', 30.00),
+    ('Coloração', 'Coloração de cabelo', 80.00),
+    ('Depilação', 'Depilação masculina', 100.00),
+    ('Massagem Relaxante', 'Massagem corporal relaxante', 120.00);
+   
+--------------------------------------------------------------------------------------------------------------------------------------------------
+    
+--Inserts para Produtos
+insert into produto (nomeprod, descprod, qtdprod, precoprod, fornecedorcodforn, servicocodserv) values
+    ('Shampoo', 'Shampoo para cabelos masculinos', 100, 25.00, 1, null),
+    ('Condicionador', 'Condicionador para cabelos masculinos', 80, 20.00, 1, null),
+    ('Pomada Modeladora', 'Pomada modeladora para cabelos', 120, 35.00, 1, null),
+    ('Cera Modeladora', 'Cera modeladora para cabelos', 90, 30.00, 1, null);
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+--Inserts para Agendamentos
+insert into agendamento (data_hora, status, clientecodcli, funcionariocodfun) values
+    ('2024-07-10 09:00:00', 'Agendado', 1, 1),
+    ('2024-07-12 15:30:00', 'Agendado', 2, 2),
+    ('2024-07-15 11:00:00', 'Agendado', 3, 3),
+    ('2024-07-18 14:00:00', 'Agendado', 4, 1),
+    ('2024-07-20 10:30:00', 'Agendado', 5, 2),
+    ('2024-07-22 13:00:00', 'Agendado', 6, 3),
+    ('2024-07-25 16:00:00', 'Agendado', 7, 1),
+    ('2024-07-28 12:30:00', 'Agendado', 8, 2),
+    ('2024-07-30 10:00:00', 'Agendado', 9, 3),
+    ('2024-08-02 14:30:00', 'Agendado', 10, 1);
+   
+ --------------------------------------------------------------------------------------------------------------------------------------------------
+  
+ --Inserts para Pagamentos
+insert into pagamento (valor, data_hora_pagamento, forma_pagamento, clientecodcli, agendamentocodagen) values
+    (50.00, '2024-07-10 10:00:00', 'Dinheiro', 1, 1),
+    (30.00, '2024-07-12 16:00:00', 'Cartão de Débito', 2, 2),
+    (80.00, '2024-07-15 12:00:00', 'Cartão de Crédito', 3, 3),
+    (100.00, '2024-07-18 15:00:00', 'Dinheiro', 4, 4),
+    (120.00, '2024-07-20 11:00:00', 'Cartão de Crédito', 5, 5),
+    (50.00, '2024-07-22 14:00:00', 'Dinheiro', 6, 6),
+    (30.00, '2024-07-25 17:00:00', 'Cartão de Débito', 7, 7),
+    (80.00, '2024-07-28 13:00:00', 'Cartão de Crédito', 8, 8),
+    (100.00, '2024-07-30 11:00:00', 'Dinheiro', 9, 9),
+    (120.00, '2024-08-02 15:00:00', 'Cartão de Crédito', 10, 10);
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+   
+--Inserts para Histórico de Serviços
+insert into historico_servico (data_hora, servicocodserv, clientecodcli, funcionariocodfun) values
+    ('2024-07-10 09:30:00', 1, 1, 1),
+    ('2024-07-12 15:45:00', 2, 2, 2),
+    ('2024-07-15 11:30:00', 3, 3, 3),
+    ('2024-07-18 14:30:00', 4, 4, 1),
+    ('2024-07-20 10:45:00', 5, 5, 2),
+    ('2024-07-22 13:30:00', 1, 6, 3),
+    ('2024-07-25 16:30:00', 2, 7, 1),
+    ('2024-07-28 12:45:00', 3, 8, 2),
+    ('2024-07-30 10:15:00', 4, 9, 3),
+    ('2024-08-02 14:45:00', 5, 10, 1);
+
+```
+## 🎲Script - Selects/consultas
+```sql
+-- Select
+SELECT * FROM cliente;
+SELECT * FROM fornecedor;
+SELECT * FROM funcionario;
+SELECT * FROM servico;
+SELECT * FROM produto;
+SELECT * FROM agendamento;
+SELECT * FROM pagamento;
+SELECT * FROM historico_servico;
+
+--Consulta: Clientes e Seus Agendamentos
+SELECT c.nomcli, a.data_hora, a.status 
+FROM cliente c
+JOIN agendamento a ON c.codcli = a.clientecodcli;
+
+--------------------------------------------------------------------------------------------
+--Consulta: Funcionários e Seus Agendamentos
+SELECT f.nomefun, a.data_hora, a.status 
+FROM funcionario f
+JOIN agendamento a ON f.codfun = a.funcionariocodfun;
+
+--------------------------------------------------------------------------------------------
+--Consulta: Produtos e Seus Fornecedores
+
+SELECT p.nomeprod, p.descprod, p.qtdprod, p.precoprod, f.nomeforn
+FROM produto p
+JOIN fornecedor f ON p.fornecedorcodforn = f.codforn;
+
+--------------------------------------------------------------------------------------------
+--Consulta: Serviços Prestados com Detalhes de Clientes e Funcionários
+
+SELECT hs.data_hora, c.nomcli, s.nomeserv, s.descserv, f.nomefun
+FROM historico_servico hs
+JOIN cliente c ON hs.clientecodcli = c.codcli
+JOIN servico s ON hs.servicocodserv = s.codserv
+JOIN funcionario f ON hs.funcionariocodfun = f.codfun;
+
+--------------------------------------------------------------------------------------------
+--Consulta: Pagamentos Realizados por Cliente
+
+SELECT p.valor, p.data_hora_pagamento, p.forma_pagamento, c.nomcli
+FROM pagamento p
+JOIN cliente c ON p.clientecodcli = c.codcli;
+
+--------------------------------------------------------------------------------------------
+--Consulta: Agendamentos com Detalhes de Clientes e Funcionários
+SELECT a.data_hora, a.status, c.nomcli, f.nomefun
+FROM agendamento a
+JOIN cliente c ON a.clientecodcli = c.codcli
+JOIN funcionario f ON a.funcionariocodfun = f.codfun;
+
+--------------------------------------------------------------------------------------------
+--Consulta: Total de Pagamentos por Cliente
+SELECT c.nomcli, SUM(p.valor) AS total_pago
+FROM pagamento p
+JOIN cliente c ON p.clientecodcli = c.codcli
+GROUP BY c.nomcli;
+
+--------------------------------------------------------------------------------------------
+--Consulta: Número de Agendamentos por Funcionário
+SELECT f.nomefun, COUNT(a.codagen) AS total_agendamentos
+FROM funcionario f
+JOIN agendamento a ON f.codfun = a.funcionariocodfun
+GROUP BY f.nomefun;
+
+--------------------------------------------------------------------------------------------
+--Consulta: Serviços Mais Realizados
+SELECT s.nomeserv, COUNT(hs.codhistorico) AS total_servicos
+FROM servico s
+JOIN historico_servico hs ON s.codserv = hs.servicocodserv
+GROUP BY s.nomeserv
+ORDER BY total_servicos DESC;
+```
+## 🎲Script de Consultas solicitadas pelo Professor
+```sql
+-- Clientes com idade abaixo de 40 anos e sexo masculino, ordenados pelo nome descendente
+SELECT nomcli, dtnascli
+FROM cliente
+WHERE sexocli = 'Masculino' AND date_part('year', age(current_date, dtnascli)) < 40
+ORDER BY nomcli DESC;
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+--Serviços registrados em meses sem a letra 'o' no final e de clientes nos bairros Centro e Agostini, ordenados pelo nome do cliente descendente
+SELECT cli.nomcli, ser.nomeserv, to_char(hs.data_hora, 'Month') AS mes
+FROM cliente cli
+JOIN agendamento ag ON cli.codcli = ag.clientecodcli
+JOIN historico_servico hs ON ag.codagen = hs.codhistorico
+JOIN servico ser ON hs.servicocodserv = ser.codserv
+WHERE cli.bairrocli IN ('Centro', 'Agostini')
+  AND to_char(hs.data_hora, 'Month') !~ 'o$'
+ORDER BY cli.nomcli DESC;
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+-- Agendamentos de clientes com menos de 20 anos das cidades especificadas, ordenados por número de agendamentos por cidade
+SELECT cli.cidadecli, COUNT(*) AS num_agendamentos
+FROM cliente cli
+JOIN agendamento ag ON cli.codcli = ag.clientecodcli
+WHERE date_part('year', age(current_date, cli.dtnascli)) < 20
+  AND cli.cidadecli IN ('Maravilha', 'Descanso', 'Itapiranga', 'Guaraciaba')
+GROUP BY cli.cidadecli
+ORDER BY num_agendamentos DESC;
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+-- Total de serviços e valor total realizados por mês em 2024, ordenado do maior valor para o menor valor
+SELECT to_char(data_hora, 'Month') AS mes,
+       COUNT(*) AS total_servicos,
+       SUM(ps.valor) AS valor_total
+FROM pagamento ps
+JOIN agendamento ag ON ps.agendamentocodagen = ag.codagen
+WHERE date_part('year', ag.data_hora) = 2024
+GROUP BY mes
+ORDER BY valor_total DESC;
+
+```
+
+## 🎲Script de Exclusão das Tabelas
+```sql
+--Possuem chaves estrangeiras
+DROP TABLE IF EXISTS historico_servico CASCADE;
+DROP TABLE IF EXISTS pagamento CASCADE;
+DROP TABLE IF EXISTS agendamento CASCADE;
+DROP TABLE IF EXISTS produto CASCADE;
+
+--tabelas referenciadas pelas anteriores
+DROP TABLE IF EXISTS servico CASCADE;
+DROP TABLE IF EXISTS funcionario CASCADE;
+DROP TABLE IF EXISTS cliente CASCADE;
+DROP TABLE IF EXISTS fornecedor CASCADE;
+```
+## 🎲SQL para Relatórios (com Views e Joins)
+```
+-- View para visualizar agendamentos com informações do cliente e funcionário
+create view view_agendamentos_completos as
+select ag.codagen, ag.data_hora, ag.status, cl.nomcli, cl.telcli, fn.nomefun
+from agendamento ag
+join cliente cl on ag.clientecodcli = cl.codcli
+join funcionario fn on ag.funcionariocodfun = fn.codfun;
+
+-- View para visualizar pagamentos com detalhes do cliente e agendamento
+create view view_pagamentos as
+select pg.codpag, pg.valor, pg.data_hora_pagamento, pg.forma_pagamento, cl.nomcli, ag.data_hora
+from pagamento pg
+join cliente cl on pg.clientecodcli = cl.codcli
+join agendamento ag on pg.agendamentocodagen = ag.codagen;
+
+```
+
+## 🎲Scripts de Criação do Banco de Dados e Índices
+```
+-- Índices para otimização
+create index idx_cliente_nome on cliente(nomcli);
+create index idx_fornecedor_nome on fornecedor(nomeforn);
+create index idx_funcionario_nome on funcionario(nomefun);
+create index idx_servico_nome on servico(nomeserv);
+
+```
+
+## 🎲Políticas de Acesso
+```
+-- Criação de usuários e grupos
+create role gerente with login password 'senha_gerente';
+create role atendente with login password 'senha_atendente';
+
+-- Privilégios para gerente
+grant all privileges on all tables in schema public to gerente;
+grant select, insert, update, delete on all tables in schema public to atendente;
+
+```
+## 🎲Gatilhos (Triggers)
+```
+-- Trigger para garantir que a quantidade de produtos nunca seja negativa
+create or replace function verificar_quantidade_produto()
+returns trigger as $$
+begin
+    if new.qtdprod < 0 then
+        raise exception 'A quantidade de produto não pode ser negativa.';
+    end if;
+    return new;
+end;
+$$ language plpgsql;
+
+create trigger trg_verificar_quantidade_produto
+before insert or update on produto
+for each row
+execute function verificar_quantidade_produto();
+
+-- Trigger de auditoria de agendamentos
+create or replace function auditoria_agendamento()
+returns trigger as $$
+begin
+    insert into historico_servico (data_hora, servicocodserv, clientecodcli, funcionariocodfun)
+    values (now(), new.servicocodserv, new.clientecodcli, new.funcionariocodfun);
+    return new;
+end;
+$$ language plpgsql;
+
+create trigger trg_auditoria_agendamento
+after insert on agendamento
+for each row
+execute function auditoria_agendamento();
+
+```
+## 🎲Políticas e Configuração de Backup e Restore
+```
+--Backup
+pg_dump -U nome_usuario -F c -b -v -f /caminho/do/backup/devbarbershop.bak devbarbershop
+
+--Restaurar Backup
+pg_restore -U nome_usuario -d devbarbershop -v /caminho/do/backup/devbarbershop.bak
+
+```
 
 
 

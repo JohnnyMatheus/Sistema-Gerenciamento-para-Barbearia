@@ -747,6 +747,6 @@ Quando você chama $this->db ou um Model, a mesma conexão é mantida em singlet
 
 ## 🔷 Professores
 
-| [<img src="https://avatars.githubusercontent.com/u/20915745?v=4" width=115><br><sub>Otília Donato Barbosa</sub>](https://github.com/otiliadb) | [<img src="https://avatars.githubusercontent.com/u/1161348?v=4" width=115><br><sub>Roberson Alves</sub>](https://github.com/robersonjfa) |
+| [<img src="https://avatars.githubusercontent.com/u/15215?v=4" width=115><br><sub></sub>](https://github.com/otiliadb) | [<img src="https://avatars.githubusercontent.com/u/1161348?v=4" width=115><br><sub>Roberson Alves</sub>](https://github.com/robersonjfa) |
 | :---: | :---: |
 

@@ -715,4 +715,20 @@ pg_restore -U nome_usuario -d devbarbershop -v /caminho/do/backup/devbarbershop.
 - Controller → regras de negócio e fluxo de requisições
 - Vantagem: facilita manutenção, testes, e colaboração em equipe.
 
+###Exemplo no projeto:
+<p>O CRUD de clientes, por exemplo, está totalmente separado:</p>
+- ClienteModel.php → acesso à tabela
+- Clientes.php (controller) → orquestra as requisições
+- views → mostram os dados no Bootstrap
+
+## 2️⃣ Singleton (injetado pelo CodeIgniter)
+
+O CodeIgniter usa Singleton internamente para gerenciar a conexão de banco de dados:
+- Ele abre a conexão apenas uma vez e a reaproveita em todas as requisições
+- Isso evita múltiplas instâncias da conexão e economiza recursos
+
+Exemplo no projeto:
+Quando você chama $this->db ou um Model, a mesma conexão é mantida em singleton no Core do CodeIgniter.
+
+
 

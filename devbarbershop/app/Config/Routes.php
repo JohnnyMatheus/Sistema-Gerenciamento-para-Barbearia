@@ -53,3 +53,33 @@ $routes->post('/produtos/store', 'Produtos::store');
 $routes->get('/produtos/edit/(:num)', 'Produtos::edit/$1');
 $routes->post('/produtos/update/(:num)', 'Produtos::update/$1');
 $routes->get('/produtos/delete/(:num)', 'Produtos::delete/$1');
+
+
+//Agendamentos
+
+$routes->get('/agendamentos', 'Agendamentos::index');
+$routes->get('/agendamentos/create', 'Agendamentos::create');
+$routes->post('/agendamentos/store', 'Agendamentos::store');
+$routes->get('/agendamentos/edit/(:num)', 'Agendamentos::edit/$1');
+$routes->post('/agendamentos/update/(:num)', 'Agendamentos::update/$1');
+$routes->get('/agendamentos/delete/(:num)', 'Agendamentos::delete/$1');
+
+
+//Pagamentos
+
+$routes->get('/pagamentos', 'Pagamentos::index');
+$routes->get('/pagamentos/create', 'Pagamentos::create');
+$routes->post('/pagamentos/store', 'Pagamentos::store');
+$routes->get('/pagamentos/edit/(:num)', 'Pagamentos::edit/$1');
+$routes->post('/pagamentos/update/(:num)', 'Pagamentos::update/$1');
+$routes->get('/pagamentos/delete/(:num)', 'Pagamentos::delete/$1');
+
+
+//Histórico de serviços
+
+$routes->get('/historicos', 'Historicos::index');
+$routes->get('/historicos/create', 'Historicos::create');
+$routes->post('/historicos/store', 'Historicos::store');
+$routes->get('/historicos/edit/(:num)', 'Historicos::edit/$1');
+$routes->post('/historicos/update/(:num)', 'Historicos::update/$1');
+$routes->get('/historicos/delete/(:num)', 'Historicos::delete/$1');

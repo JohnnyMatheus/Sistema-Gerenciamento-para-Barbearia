@@ -83,7 +83,13 @@
 <hr>
 <h2 align="center">🔷Prototipagem</h2>
 
-## 🔷Tela de Login
+## 🔒Tela de Login
 <p align="center">
  <img src="https://github.com/JohnnyMatheus/Sistema-Gerenciamento-para-Barbearia/blob/main/Imagens/tela%20de%20login.png"/>
 </p>
+
+## 💈Tela do sistema
+<p align="center">
+ <img src="https://github.com/JohnnyMatheus/Sistema-Gerenciamento-para-Barbearia/blob/main/Imagens/tela%20do%20sistema.png"/>
+</p>
+<hr>

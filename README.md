@@ -79,3 +79,5 @@
 <p>🔸Histórico de Serviços</p>
 <p>O histórico de serviços contém registros de todos os serviços realizados, com data/hora, serviço prestado, cliente e funcionário envolvidos.</p>
 <p>Este histórico é importante para consultas futuras sobre serviços realizados e pode ser usado para análise do perfil do cliente.</p>
+
+<h2 align="center">🔷Prototipagem</h2>

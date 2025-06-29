@@ -45,4 +45,11 @@ $routes->get('/servicos/edit/(:num)', 'Servicos::edit/$1');
 $routes->post('/servicos/update/(:num)', 'Servicos::update/$1');
 $routes->get('/servicos/delete/(:num)', 'Servicos::delete/$1');
 
+//PRODUTOS
 
+$routes->get('/produtos', 'Produtos::index');
+$routes->get('/produtos/create', 'Produtos::create');
+$routes->post('/produtos/store', 'Produtos::store');
+$routes->get('/produtos/edit/(:num)', 'Produtos::edit/$1');
+$routes->post('/produtos/update/(:num)', 'Produtos::update/$1');
+$routes->get('/produtos/delete/(:num)', 'Produtos::delete/$1');

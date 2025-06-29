@@ -706,6 +706,13 @@ pg_dump -U nome_usuario -F c -b -v -f /caminho/do/backup/devbarbershop.bak devba
 pg_restore -U nome_usuario -d devbarbershop -v /caminho/do/backup/devbarbershop.bak
 
 ```
+<hr>
+<h2 align="center">📋Padrões de Projeto📋</h2>
 
+## 1️⃣Padrão MVC (Model-View-Controller)
+--Model → regras de acesso ao banco de dados
+--View → as telas com Bootstrap
+--Controller → regras de negócio e fluxo de requisições
+--Vantagem: facilita manutenção, testes, e colaboração em equipe.
 
 

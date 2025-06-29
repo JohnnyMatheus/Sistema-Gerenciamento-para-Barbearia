@@ -95,5 +95,9 @@
 <hr>
 <h2 align="center">🛠️Ferramentas Utilizadas</h2>
 
+| [<img src="URL_IMAGEM_1" width=115><br><sub>Ferramenta 1</sub>](URL_LINK_1) | [<img src="URL_IMAGEM_2" width=115><br><sub>Ferramenta 2</sub>](URL_LINK_2) | [<img src="URL_IMAGEM_3" width=115><br><sub>Ferramenta 3</sub>](URL_LINK_3) | [<img src="URL_IMAGEM_4" width=115><br><sub>Ferramenta 4</sub>](URL_LINK_4) | [<img src="URL_IMAGEM_5" width=115><br><sub>Ferramenta 5</sub>](URL_LINK_5) | [<img src="URL_IMAGEM_6" width=115><br><sub>Ferramenta 6</sub>](URL_LINK_6) | [<img src="URL_IMAGEM_7" width=115><br><sub>Ferramenta 7</sub>](URL_LINK_7) | [<img src="URL_IMAGEM_8" width=115><br><sub>Ferramenta 8</sub>](URL_LINK_8) | [<img src="URL_IMAGEM_9" width=115><br><sub>Ferramenta 9</sub>](URL_LINK_9) | [<img src="URL_IMAGEM_10" width=115><br><sub>Ferramenta 10</sub>](URL_LINK_10) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+
+
 
 

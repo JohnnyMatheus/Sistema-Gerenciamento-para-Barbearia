@@ -708,6 +708,9 @@ pg_restore -U nome_usuario -d devbarbershop -v /caminho/do/backup/devbarbershop.
 ```
 <hr>
 <h2 align="center">📋Padrões de Projeto📋</h2>
+<p align="justify">
+  O projeto utiliza MVC como arquitetura principal, aplica Singleton para conexão de banco, e injeção de dependências para facilitar a manutenção. Esses padrões são aderentes ao   	  contexto do CodeIgniter e ao objetivo acadêmico, garantindo qualidade, testabilidade e clareza no desenvolvimento do sistema.
+</p>
 
 ## 1️⃣Padrão MVC (Model-View-Controller)
 - Model → regras de acesso ao banco de dados
@@ -715,7 +718,7 @@ pg_restore -U nome_usuario -d devbarbershop -v /caminho/do/backup/devbarbershop.
 - Controller → regras de negócio e fluxo de requisições
 - Vantagem: facilita manutenção, testes, e colaboração em equipe.
 
-###Exemplo no projeto:
+## Exemplo no projeto:
 <p>O CRUD de clientes, por exemplo, está totalmente separado:</p>
 - ClienteModel.php → acesso à tabela
 - Clientes.php (controller) → orquestra as requisições
@@ -727,8 +730,13 @@ O CodeIgniter usa Singleton internamente para gerenciar a conexão de banco de d
 - Ele abre a conexão apenas uma vez e a reaproveita em todas as requisições
 - Isso evita múltiplas instâncias da conexão e economiza recursos
 
-Exemplo no projeto:
+## Exemplo no projeto:
 Quando você chama $this->db ou um Model, a mesma conexão é mantida em singleton no Core do CodeIgniter.
+
+## 3️⃣ Dependency Injection (inversão de dependência)
+
+- O CodeIgniter facilita injeção de dependências através de construtores (ex.: passando Models nos controllers)
+- Ajuda a tornar o código mais testável e modular
 
 
 

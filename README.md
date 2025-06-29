@@ -100,6 +100,37 @@
 <hr>
 <h2 align="center">🔶Diagramas do Projeto</h2>
 
+##🔸Diagrama de Caso de uso
+<p align="center">
+ <img src=""/>
+</p>
+
+##🔸Diagrama de Fluxos
+<p align="center">
+ <img src=""/>
+</p>
+
+##🔸Diagrama de sequência
+<p align="center">
+ <img src=""/>
+</p>
+
+##🔸Diagrama de atividades
+<p align="center">
+ <img src=""/>
+</p>
+
+## 🔷Diagramas de estado
+<p align="center">
+ <img src=""/>
+</p>
+
+## 🔷Diagramas de classes
+<p align="center">
+ <img src=""/>
+</p>
+
+
 
 
 

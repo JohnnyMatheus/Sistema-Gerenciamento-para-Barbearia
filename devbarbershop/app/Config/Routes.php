@@ -36,4 +36,13 @@ $routes->get('/funcionarios/edit/(:num)', 'Funcionarios::edit/$1');
 $routes->post('/funcionarios/update/(:num)', 'Funcionarios::update/$1');
 $routes->get('/funcionarios/delete/(:num)', 'Funcionarios::delete/$1');
 
-//
+//SERVIÇOS
+
+$routes->get('/servicos', 'Servicos::index');
+$routes->get('/servicos/create', 'Servicos::create');
+$routes->post('/servicos/store', 'Servicos::store');
+$routes->get('/servicos/edit/(:num)', 'Servicos::edit/$1');
+$routes->post('/servicos/update/(:num)', 'Servicos::update/$1');
+$routes->get('/servicos/delete/(:num)', 'Servicos::delete/$1');
+
+

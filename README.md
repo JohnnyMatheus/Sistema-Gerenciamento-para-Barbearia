@@ -740,3 +740,13 @@ Quando você chama $this->db ou um Model, a mesma conexão é mantida em singlet
 
 
 
+## 🧠 Desenvolvedores
+
+| [<img src="https://avatars.githubusercontent.com/u/128015032?v=4" width=115><br><sub>Johnny Matheus Nogueira de Medeiro</sub>](https://github.com/JohnnyMatheus) | [<img src="https://via.placeholder.com/115" width=115><br><sub>Desenvolvedor 2</sub>](#) | [<img src="https://via.placeholder.com/115" width=115><br><sub>Desenvolvedor 3</sub>](#) |
+| :---: | :---: | :---: |
+
+## 🔷 Professores
+
+| [<img src="https://avatars.githubusercontent.com/u/20915745?v=4" width=115><br><sub>Otília Donato Barbosa</sub>](https://github.com/otiliadb) | [<img src="https://avatars.githubusercontent.com/u/1161348?v=4" width=115><br><sub>Roberson Alves</sub>](https://github.com/robersonjfa) |
+| :---: | :---: |
+

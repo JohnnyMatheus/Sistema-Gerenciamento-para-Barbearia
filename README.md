@@ -100,34 +100,34 @@
 <hr>
 <h2 align="center">🔶Diagramas do Projeto</h2>
 
-##🔸Diagrama de Caso de uso
+## 🔸Diagrama de Caso de uso
 <p align="center">
- <img src=""/>
+ <img src="https://github.com/JohnnyMatheus/Sistema-Gerenciamento-para-Barbearia/blob/main/Diagramas/Diagrama%20de%20caso%20de%20Uso.png"/>
 </p>
 
-##🔸Diagrama de Fluxos
+## 🔸Diagrama de Fluxos
 <p align="center">
- <img src=""/>
+ <img src="https://github.com/JohnnyMatheus/Sistema-Gerenciamento-para-Barbearia/blob/main/Diagramas/DIagrama%20de%20fluxo.png"/>
 </p>
 
-##🔸Diagrama de sequência
+## 🔸Diagrama de sequência
 <p align="center">
- <img src=""/>
+ <img src="https://github.com/JohnnyMatheus/Sistema-Gerenciamento-para-Barbearia/blob/main/Diagramas/diagrama%20de%20sequencia.jpg"/>
 </p>
 
-##🔸Diagrama de atividades
+## 🔸Diagrama de atividades
 <p align="center">
- <img src=""/>
+ <img src="https://github.com/JohnnyMatheus/Sistema-Gerenciamento-para-Barbearia/blob/main/Diagramas/diagrama%20de%20atividades.jpg"/>
 </p>
 
 ## 🔷Diagramas de estado
 <p align="center">
- <img src=""/>
+ <img src="https://github.com/JohnnyMatheus/Sistema-Gerenciamento-para-Barbearia/blob/main/Diagramas/Diagrama%20de%20Estados.png"/>
 </p>
 
 ## 🔷Diagramas de classes
 <p align="center">
- <img src=""/>
+ <img src="https://github.com/JohnnyMatheus/Sistema-Gerenciamento-para-Barbearia/blob/main/Diagramas/diagrama%20de%20classe.jpg"/>
 </p>
 
 

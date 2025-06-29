@@ -129,6 +129,14 @@
 <p align="center">
  <img src="https://github.com/JohnnyMatheus/Sistema-Gerenciamento-para-Barbearia/blob/main/Diagramas/diagrama%20de%20classe.jpg"/>
 </p>
+<hr>
+
+## ⚙️Modelagem
+Você pode [acessar a modelagem do projeto aqui]()
+
+<p align="center">
+<img src="https://github.com/JohnnyMatheus/Sistema-Gerenciamento-para-Barbearia/blob/main/Imagens/modelagem-atualizada.png">
+</p>
 
 
 

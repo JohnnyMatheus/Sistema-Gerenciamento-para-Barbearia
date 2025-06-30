@@ -798,9 +798,10 @@ class LoginTest extends CIUnitTestCase
 <p align="justify">
   Para testes de funcionalidade foi utilizada a ferramenta Katalon Studio, por sua interface intuitiva e recursos de gravação de cenários. Foram validados fluxos completos do sistema DevBarberShop, incluindo login, cadastros, edições, exclusões e navegação entre módulos, assegurando que todas as funcionalidades estejam alinhadas aos requisitos especificados.
 </p>
-- Simular o comportamento real do usuário (navegação, cliques, campos);
-- Automatizar login, cadastro, edição e exclusão;
-- Validar regras de negócio;
+
+- Simular o comportamento real do usuário (navegação, cliques, campos)
+- Automatizar login, cadastro, edição e exclusão
+- Validar regras de negócio
 
 
 <h1>COLOCAR O VIDEO E O CODIGO</h1>

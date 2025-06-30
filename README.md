@@ -813,6 +813,25 @@ class LoginTest extends CIUnitTestCase
 
 <p align="justify">O Apache JMeter é uma ferramenta gratuita e de código aberto utilizada para testar o desempenho e a carga de aplicações web. Com ele, é possível simular múltiplos usuários acessando uma aplicação ao mesmo tempo, medindo tempo de resposta, falhas e comportamento do sistema sob estresse.</p>
 
+## Thread Group
+<p align="center">
+ <img src="https://github.com/JohnnyMatheus/Sistema-Gerenciamento-para-Barbearia/blob/main/Imagens/jmeterThreadGroup.png"/>
+</p>
+
+## HTTP Request -> Login
+<p align="center">
+ <img src="https://github.com/JohnnyMatheus/Sistema-Gerenciamento-para-Barbearia/blob/main/Imagens/jmeterlogin.png"/>
+</p>
+
+## Graph Results
+<p align="center">
+ <img src="https://github.com/JohnnyMatheus/Sistema-Gerenciamento-para-Barbearia/blob/main/Imagens/Graph%20Results.png"/>
+</p>
+
+## Summary Report
+<p align="center">
+ <img src="https://github.com/JohnnyMatheus/Sistema-Gerenciamento-para-Barbearia/blob/main/Imagens/Summary%20Report.png"/>
+</p>
 
 ## 🧠 Desenvolvedores
 

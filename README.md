@@ -806,8 +806,13 @@ class LoginTest extends CIUnitTestCase
 
 <h1>COLOCAR O VIDEO E O CODIGO</h1>
 
-
+<hr>
 <h2 align="center">🩻Teste de Carga🩻</h2>
+
+## Teste de carga com JMeter
+
+<p align="justify">O Apache JMeter é uma ferramenta gratuita e de código aberto utilizada para testar o desempenho e a carga de aplicações web. Com ele, é possível simular múltiplos usuários acessando uma aplicação ao mesmo tempo, medindo tempo de resposta, falhas e comportamento do sistema sob estresse.</p>
+
 
 ## 🧠 Desenvolvedores
 

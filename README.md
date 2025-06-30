@@ -738,5 +738,63 @@ Quando você chama $this->db ou um Model, a mesma conexão é mantida em singlet
 - O CodeIgniter facilita injeção de dependências através de construtores (ex.: passando Models nos controllers)
 - Ajuda a tornar o código mais testável e modular
 
+<hr>
+<h2 align="center">📋Teste Unitário📋</h2>
+<p>Foram criados testes unitários para validar o modelo de autenticação de usuários no sistema. Por exemplo, verificou-se se o administrador padrão está cadastrado corretamente, e se a senha padrão (hash) confere com o esperado, utilizando PHPUnit como framework de testes automatizados.</p>
 
+## 📁Diretorio do teste
+```
+tests/unit/LoginTest.php
+
+```
+## T
+```
+ <?php
+
+namespace App\Tests\Unit;
+
+use CodeIgniter\Test\CIUnitTestCase;
+use App\Models\UsuarioModel;
+
+class LoginTest extends CIUnitTestCase
+{
+    public function testUsuarioExiste()
+    {
+        $model = new UsuarioModel();
+        $usuario = $model->where('email', 'admin@devbarbershop.com')->first();
+        
+        $this->assertNotNull($usuario, 'Usuário administrador não existe no banco');
+        $this->assertEquals('admin@devbarbershop.com', $usuario['email']);
+    }
+    
+    public function testVerificaSenha()
+    {
+        $model = new UsuarioModel();
+        $usuario = $model->where('email', 'admin@devbarbershop.com')->first();
+
+        $senhaCorreta = password_verify('admin123', $usuario['senha']);
+        $this->assertTrue($senhaCorreta, 'A senha do usuário administrador está incorreta');
+    }
+}
+
+```
+## ✅ Esse teste:
+- Confere se existe o usuário “admin” cadastrado
+- Verifica se a senha admin123 está funcionando corretamente
+
+## ✅ Como rodar o teste unitário?
+- php vendor/bin/phpunit
+  ou
+- php spark test
+
+
+## 🧠 Desenvolvedores
+
+| [<img src="https://avatars.githubusercontent.com/u/128015032?v=4" width=115><br><sub>Johnny Matheus Nogueira de Medeiro</sub>](https://github.com/JohnnyMatheus) | [<img src="https://avatars.githubusercontent.com/u/166051346?v=4" width=115><br><sub>Nelson Ramos Rodrigues Junior</sub>](#) | [<img src="https://avatars.githubusercontent.com/u/165223471?v=4" width=115><br><sub>Nathaniel Nicolas Rissi Soares</sub>](#) |
+| :---: | :---: | :---: |
+
+## 🔷 Professores
+
+| [<img src="https://avatars.githubusercontent.com/u/15215?v=4" width=115><br><sub>Leandro Otávio Córdova Vieira</sub>](https://github.com/otiliadb) | [<img src="https://avatars.githubusercontent.com/u/1161348?v=4" width=115><br><sub>Roberson Alves</sub>](https://github.com/robersonjfa) |
+| :---: | :---: |
 

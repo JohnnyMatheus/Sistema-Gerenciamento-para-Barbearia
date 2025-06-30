@@ -793,6 +793,12 @@ class LoginTest extends CIUnitTestCase
  <img src="https://github.com/JohnnyMatheus/Sistema-Gerenciamento-para-Barbearia/blob/main/Imagens/resultados%20do%20teste.png"/>
 </p>
 
+<hr>
+<h2 align="center">Teste Funcionalidade📋</h2>
+<p align="justify">
+  Para testes de funcionalidade foi utilizada a ferramenta Katalon Studio, por sua interface intuitiva e recursos de gravação de cenários. Foram validados fluxos completos do sistema DevBarberShop, incluindo login, cadastros, edições, exclusões e navegação entre módulos, assegurando que todas as funcionalidades estejam alinhadas aos requisitos especificados.
+</p>
+
 
 ## 🧠 Desenvolvedores
 

@@ -818,20 +818,25 @@ class LoginTest extends CIUnitTestCase
  <img src="https://github.com/JohnnyMatheus/Sistema-Gerenciamento-para-Barbearia/blob/main/Imagens/jmeterThreadGroup.png"/>
 </p>
 
-## HTTP Request -> Login
+## 🧑🏽‍💻HTTP Request -> Login
 <p align="center">
  <img src="https://github.com/JohnnyMatheus/Sistema-Gerenciamento-para-Barbearia/blob/main/Imagens/jmeterlogin.png"/>
 </p>
 
-## Graph Results
+## 📉Graph Results
 <p align="center">
  <img src="https://github.com/JohnnyMatheus/Sistema-Gerenciamento-para-Barbearia/blob/main/Imagens/Graph%20Results.png"/>
 </p>
 
-## Summary Report
+## 📋Summary Report
 <p align="center">
  <img src="https://github.com/JohnnyMatheus/Sistema-Gerenciamento-para-Barbearia/blob/main/Imagens/Summary%20Report.png"/>
 </p>
+
+
+## ☠️Resultados Teste de carga Jmeter
+<p align="justify">Foi realizado um teste de carga com o Apache JMeter, simulando 50 usuários simultâneos acessando o sistema de login. O tempo médio de resposta foi de aproximadamente 22 segundos, sem ocorrência de erros ou falhas de autenticação, demonstrando que o sistema suporta uma carga inicial de acessos dentro do esperado.</p>
+
 
 ## 🧠 Desenvolvedores
 

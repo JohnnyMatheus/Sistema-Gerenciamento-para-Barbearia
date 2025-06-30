@@ -787,6 +787,32 @@ class LoginTest extends CIUnitTestCase
   ou
 - php spark test
 
+## 🎯Resultados do teste
+
+<p align="center">
+ <img src="https://github.com/JohnnyMatheus/Sistema-Gerenciamento-para-Barbearia/blob/main/Imagens/resultados%20do%20teste.png"/>
+</p>
+
+<hr>
+<h2 align="center">Teste Funcionalidade📋</h2>
+<p align="justify">
+  Para testes de funcionalidade foi utilizada a ferramenta Katalon Studio, por sua interface intuitiva e recursos de gravação de cenários. Foram validados fluxos completos do sistema DevBarberShop, incluindo login, cadastros, edições, exclusões e navegação entre módulos, assegurando que todas as funcionalidades estejam alinhadas aos requisitos especificados.
+</p>
+
+- Simular o comportamento real do usuário (navegação, cliques, campos)
+- Automatizar login, cadastro, edição e exclusão
+- Validar regras de negócio
+
+
+<h1>COLOCAR O VIDEO E O CODIGO</h1>
+
+<hr>
+<h2 align="center">🩻Teste de Carga🩻</h2>
+
+## Teste de carga com JMeter
+
+<p align="justify">O Apache JMeter é uma ferramenta gratuita e de código aberto utilizada para testar o desempenho e a carga de aplicações web. Com ele, é possível simular múltiplos usuários acessando uma aplicação ao mesmo tempo, medindo tempo de resposta, falhas e comportamento do sistema sob estresse.</p>
+
 
 ## 🧠 Desenvolvedores
 

@@ -804,7 +804,9 @@ class LoginTest extends CIUnitTestCase
 - Validar regras de negócio
 
 
-<h1>COLOCAR O VIDEO E O CODIGO</h1>
+<p align="center">
+ <img src="https://github.com/JohnnyMatheus/Sistema-Gerenciamento-para-Barbearia/blob/main/Imagens/Katalon%20Studio%20v10%20teste%20login.gif"/>
+</p>
 
 <hr>
 <h2 align="center">🩻Teste de Carga🩻</h2>

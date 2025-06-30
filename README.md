@@ -787,6 +787,12 @@ class LoginTest extends CIUnitTestCase
   ou
 - php spark test
 
+## 🎯Resultados do teste
+
+<p align="center">
+ <img src="https://github.com/JohnnyMatheus/Sistema-Gerenciamento-para-Barbearia/blob/main/Imagens/resultados%20do%20teste.png"/>
+</p>
+
 
 ## 🧠 Desenvolvedores
 

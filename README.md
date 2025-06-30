@@ -803,10 +803,16 @@ class LoginTest extends CIUnitTestCase
 - Automatizar login, cadastro, edição e exclusão
 - Validar regras de negócio
 
-
+## Login com Katalon
 <p align="center">
  <img src="https://github.com/JohnnyMatheus/Sistema-Gerenciamento-para-Barbearia/blob/main/Imagens/Katalon%20Studio%20v10%20teste%20login.gif"/>
 </p>
+
+## Cadastro de cliente teste funcionalidade com Katalon
+<p align="center">
+ <img src="https://github.com/JohnnyMatheus/Sistema-Gerenciamento-para-Barbearia/blob/main/Imagens/Katalon%20cadastro%20de%20cliente.gif"/>
+</p>
+
 
 <hr>
 <h2 align="center">🩻Teste de Carga🩻</h2>

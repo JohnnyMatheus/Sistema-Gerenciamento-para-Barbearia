@@ -19,8 +19,8 @@
 - [Script Banco de dados](#Script-Banco-de-Dados)
 - [Padrões de Projeto](#Padrão-MVC)
 - [Teste Unitário](#Teste-Unitário)
-- [Teste Funcionalidade](#Teste Funcionalidade)
-- [Teste de carga](#Teste de carga)
+- [Teste Funcionalidade](#Teste-Funcionalidade)
+- [Teste de carga](#Teste-de-carga)
 - [Desenvolvedor](#Desenvolvedor)
 - [Professor](#Professor)
 

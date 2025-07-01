@@ -24,7 +24,7 @@
 - [Desenvolvedor](#Desenvolvedor)
 - [Professor](#Professor)
 
-<p>O Vídeo da apresentação da programação 3 está disponível em nosso canal do youtube: https://www.youtube.com/watch?v=JFX14Llh-3U  e o vídeo de engenharia de software também está disponível em nosso canal falando sobre o conteúdo solicitado pelo professor Roberson. Disponível em : https://www.youtube.com/watch?v=I9paBoALR_c .</p>
+<p align="justify">O Vídeo da apresentação da programação 3 está disponível em nosso canal do youtube: https://www.youtube.com/watch?v=JFX14Llh-3U  e o vídeo de engenharia de software também está disponível em nosso canal falando sobre o conteúdo solicitado pelo professor Roberson. Disponível em : https://www.youtube.com/watch?v=I9paBoALR_c .</p>
 
 
 ## 💈Descrição do projeto
